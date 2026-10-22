@@ -1,11 +1,18 @@
-# Budva English Conversation Club
+# Budva | English Conversation Club
 
-Standalone website for the Budva English Conversation Club.
+The production website for the Budva English Conversation Club, with English,
+Russian, Montenegrin, Turkish, and German localizations.
 
 ## Live site
 
 https://asamusenkaepam.github.io/budva-english-club/
 
-## Local preview
+## Development
 
-Run a static HTTP server in this directory and open the local URL in a browser.
+```sh
+npm ci
+npm run dev
+```
+
+`npm run publish` creates the production build and copies the published pages to
+the repository root used by GitHub Pages.
