@@ -298,7 +298,7 @@ export default function TopicsSection({ copy }) {
         </div>
 
         <div lang="en" className={`relative max-w-5xl ${fullscreen ? 'mt-8' : 'mt-10 sm:mt-14'}`}>
-          <h3 className={`font-display font-medium leading-[1.02] tracking-[-0.035em] ${fullscreen ? 'text-[clamp(2rem,9vw,3.25rem)]' : 'text-[clamp(2rem,3.5vw,3.6rem)]'}`}>
+          <h3 className={`font-body font-medium leading-[1.08] tracking-[-0.025em] ${fullscreen ? 'text-[clamp(2rem,9vw,3.25rem)]' : 'text-[clamp(2rem,3.5vw,3.6rem)]'}`}>
             {topic.title}
           </h3>
           <ul className={`grid md:grid-cols-3 ${fullscreen ? 'mt-7 gap-4' : 'mt-10 gap-5 md:gap-8'}`}>
